@@ -1,0 +1,21 @@
+.data{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    place-content: center;
+    place-items: center;
+    background-color: blue;
+}
+.inner-data{
+    background-color: white;
+    border-radius: 8px;
+    width: 15rem;
+    height: 15rem;
+    margin: 30px;
+
+}
+button{
+background-color: blue;
+color: white;
+height: 2rem;
+border-radius: 3px;
+}
